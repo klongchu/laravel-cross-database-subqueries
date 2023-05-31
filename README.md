@@ -24,19 +24,19 @@ Eloquent cross database compatibility in subqueries.
 # Installation
 Install with composer
 ~~~
-composer require hoyvoy/laravel-cross-database-subqueries
+composer require klongchu/laravel-cross-database-subqueries
 ~~~
 
 From Laravel 5.5 onwards, it's possible to take advantage of auto-discovery of the service provider.
 For Laravel versions before 5.5, you must register the service provider in your config/app.php
 
 ~~~
-Hoyvoy\CrossDatabase\CrossDatabaseServiceProvider::class,
+Klongchu\CrossDatabase\CrossDatabaseServiceProvider::class,
 ~~~
 
 # Usage
 In your `Models` extends from:
-* Hoyvoy\CrossDatabase\Eloquent\Model
+* Klongchu\CrossDatabase\Eloquent\Model
 
 # Supported PHP Versions
 * \>=7.0
