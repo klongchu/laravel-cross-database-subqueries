@@ -1,9 +1,9 @@
 <?php
 
-namespace Hoyvoy\Tests\Integration;
+namespace Klongchu\Tests\Integration;
 
-use Hoyvoy\CrossDatabase\Eloquent\Model as Model;
-use Hoyvoy\Tests\TestCase;
+use Klongchu\CrossDatabase\Eloquent\Model as Model;
+use Klongchu\Tests\TestCase;
 
 class DatabaseEloquentSubqueriesCrossDatabaseTest extends TestCase
 {

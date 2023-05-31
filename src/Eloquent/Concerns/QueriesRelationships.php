@@ -1,8 +1,8 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase\Eloquent\Concerns;
+namespace Klongchu\CrossDatabase\Eloquent\Concerns;
 
-use Hoyvoy\CrossDatabase\CanCrossDatabaseShazaamInterface;
+use Klongchu\CrossDatabase\CanCrossDatabaseShazaamInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;

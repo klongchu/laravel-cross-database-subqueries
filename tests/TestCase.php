@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoyvoy\Tests;
+namespace Klongchu\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
 

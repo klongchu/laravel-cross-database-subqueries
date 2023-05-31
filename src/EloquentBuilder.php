@@ -1,8 +1,8 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase;
+namespace Klongchu\CrossDatabase;
 
-use Hoyvoy\CrossDatabase\Concerns\QueriesRelationships as CrossDatabaseQueriesRelationships;
+use Klongchu\CrossDatabase\Concerns\QueriesRelationships as CrossDatabaseQueriesRelationships;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\QueriesRelationships;
 

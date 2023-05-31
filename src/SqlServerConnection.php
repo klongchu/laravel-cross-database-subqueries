@@ -1,8 +1,8 @@
 <?php
 
-namespace Hoyvoy\CrossDatabase;
+namespace Klongchu\CrossDatabase;
 
-use Hoyvoy\CrossDatabase\Query\Grammars\SqlServerGrammar as SqlServerQueryGrammar;
+use Klongchu\CrossDatabase\Query\Grammars\SqlServerGrammar as SqlServerQueryGrammar;
 use Illuminate\Database\SqlServerConnection as IlluminateSqlServerConnection;
 
 class SqlServerConnection extends IlluminateSqlServerConnection implements CanCrossDatabaseShazaamInterface
