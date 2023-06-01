@@ -85,7 +85,8 @@ trait QueriesRelationships
                 $queryConnection = $this->getConnection()->getDatabaseName();
                 if ($queryConnection != $subqueryConnection) {
                     $queryFrom = $query->getConnection()->getTablePrefix().'<-->'.$query->getQuery()->from.'<-->'.$subqueryConnection;
-                    $query->from($queryFrom);
+                    // This is no longer necessary: https://github.com/laravel/framework/pull/33755
+                    //$query->from($queryFrom);
                 }
             }
 
